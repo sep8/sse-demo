@@ -1,0 +1,17 @@
+{
+  "plugins": ["@emotion", "@babel/plugin-proposal-class-properties"],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": "umd"
+      }
+    ],
+    "@babel/react"
+  ],
+  "env": {
+    "development" : {
+      "compact": false
+    }
+  }
+}
